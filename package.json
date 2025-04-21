@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "deploy": "npm run build && touch out/.nojekyll && gh-pages -d out"
@@ -27,6 +28,7 @@
     "lucide-react": "^0.487.0",
     "next": "15.2.5",
     "next-mdx-remote": "^5.0.0",
+    "next-sitemap": "^4.2.3",
     "prism-react-renderer": "^2.4.1",
     "prismjs": "^1.30.0",
     "react": "^19.0.0",

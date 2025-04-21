@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description: 'clang-tidy-gjb8114 功能与准则文档',
   verification: {
     google: "QZS-fvpVnIyam1IS3CyZcAwn1SIqGGudssXJVc4IqKc"
+  },
+  metadataBase: new URL('https://gjb8114.github.io'),
+  alternates: {
+    canonical: '/',
   }
 };
 
